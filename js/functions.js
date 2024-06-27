@@ -1,6 +1,6 @@
 // Функция для проверки длины строки
 
-const checkRandomString = (string, length) => string.length <= maxLength;
+const checkRandomString = (string, maxLength) => string.length <= maxLength;
 
   checkRandomString();
 
